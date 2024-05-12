@@ -20,8 +20,8 @@ LOGGER = get_logger(__name__)
 
 def run():
     
-    st.markdown("<h1 style:'font-size:100px;'>Happy Mother's Day!<h1/>",unsafe_allow_html=True)
-    st.write("# :cherry_blossom: Happy Mother's Day! :wave:")
+    st.markdown("<h1 style='font-size:58px'>🌸Happy Mother's Day!👋<h1/>",unsafe_allow_html=True)
+    st.write("---")
 
     st.write("""I'm sorry we couldn't spend another 
              Mother's Day together. It didn't help I forgot stuff to make a card, so I thought
