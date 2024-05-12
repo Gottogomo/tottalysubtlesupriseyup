@@ -28,14 +28,21 @@ def run():
              Mother's Day together. It didn't help I forgot stuff to make a card, so I thought
              I would try to make that up by doing this!""")
     
+    st.markdown ("<img src='https://mir-s3-cdn-cf.behance.net/project_modules/hd/52cb1440701143.57894f325a820.gif' style='border: 5px solid #050505;width: 30%;height: auto;' />", unsafe_allow_html=True)
+
+    
+
+    
 
 
     # iamge ID
-    file_id = "1Eg7KFkqPlijYMoI94C6IYdT-huWc1jQ7"
+    file_id = "1-3DDyh4AAC-v6mmaPOXS3l-oAnUuMS2c"
     # URL
     url = f"https://drive.google.com/uc?export=view&id={file_id}"
     response = requests.get(url)
     st.image(response.content)
+
+    
 
   
 
