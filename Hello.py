@@ -28,9 +28,37 @@ def run():
              Mother's Day together. It didn't help I forgot stuff to make a card, so I thought
              I would try to make that up by doing this!""")
     
-    st.markdown ("<img src='https://mir-s3-cdn-cf.behance.net/project_modules/hd/52cb1440701143.57894f325a820.gif' style='border: 5px solid #050505;width: 100%;height: auto;' />", unsafe_allow_html=True)
+    st.markdown ("<img src='https://mir-s3-cdn-cf.behance.net/project_modules/hd/52cb1440701143.57894f325a820.gif' style='border: 5px solid #050505;width: 100%;height: auto;border-radius:80%' />", unsafe_allow_html=True)
 
-    
+    st.write("---")
+    st.write(" ")
+    st.write("I think for all that, you deserve some gifts.")
+
+    with st.expander("🎉",False):
+            st.write(" ")
+            st.write("One Free Purchase")
+            
+    with st.expander("💝",False):
+            st.write(" ")
+            st.write("One big big hug whenever I am around (free of charge)")
+            st.markdown("<img src='https://www.icegif.com/wp-content/uploads/2023/07/icegif-334.gif' />",unsafe_allow_html=True)
+
+    with st.expander("🎁",False):
+            file_id1 = "1Eg7KFkqPlijYMoI94C6IYdT-huWc1jQ7"
+            # URL
+            urlyup1 = f"https://drive.google.com/uc?export=view&id={file_id1}"
+            response = requests.get(urlyup1)
+            st.write("Front and Back:")
+            st.write(urlyup1)
+
+            file_id2 = "1-3DDyh4AAC-v6mmaPOXS3l-oAnUuMS2c"
+            # URL
+            urlyup2 = f"https://drive.google.com/uc?export=view&id={file_id2}"
+            response = requests.get(urlyup2)
+            st.write("Inside:")
+            st.write(urlyup2)
+
+            
 
     
 
