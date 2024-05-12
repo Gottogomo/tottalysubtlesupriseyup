@@ -31,12 +31,14 @@ def run():
     st.markdown ("<img src='https://mir-s3-cdn-cf.behance.net/project_modules/hd/52cb1440701143.57894f325a820.gif' style='border: 5px solid #050505;width: 100%;height: auto;border-radius:80%' />", unsafe_allow_html=True)
 
     st.write("---")
+
+    st.write("---")
     st.write(" ")
     st.write("I think for all that, you deserve some gifts.")
 
-    with st.expander("🎉",False):
-            st.write(" ")
-            st.write("One Free Purchase")
+    # with st.expander("🎉",False):
+    #         st.write(" ")
+    #         st.write("One Free Purchase")
             
     with st.expander("💝",False):
             st.write(" ")
@@ -51,14 +53,13 @@ def run():
             st.write("Front and Back:")
             st.write(urlyup1)
 
-            file_id2 = "1-3DDyh4AAC-v6mmaPOXS3l-oAnUuMS2c"
+            file_id2 = "1eBs_SiDLrpod50X0_tq95TA5mgZ9IUnp"
             # URL
             urlyup2 = f"https://drive.google.com/uc?export=view&id={file_id2}"
             response = requests.get(urlyup2)
             st.write("Inside:")
             st.write(urlyup2)
 
-            
 
     
 
