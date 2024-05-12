@@ -70,7 +70,7 @@ def run():
     with st.expander("💝",False):
             st.write(" ")
             st.write("One big big hug whenever I am around (free of charge)")
-            st.markdown("<img style='width: 100%;height: auto; src='https://www.icegif.com/wp-content/uploads/2023/07/icegif-334.gif' />",unsafe_allow_html=True)
+            st.markdown("<img style='width: 100%;height: auto;' src='https://www.icegif.com/wp-content/uploads/2023/07/icegif-334.gif' />",unsafe_allow_html=True)
 
     with st.expander("🎁",False):
             file_id1 = "1Eg7KFkqPlijYMoI94C6IYdT-huWc1jQ7"
