@@ -20,8 +20,11 @@ LOGGER = get_logger(__name__)
 
 def run():
     
+    st.write("# :cherry_blossom: Happy Mother's Day! :wave:")
 
-    st.write("# :cherry_blossom: Happy Mother's Day :wave:")
+    st.write("""I'm sorry we couldn't spend another 
+             Mother's Day together. It didn't help I forgot stuff to make a card, so I thought
+             I would try to make that up by doing this!""")
 
     
 
