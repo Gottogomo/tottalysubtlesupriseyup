@@ -69,7 +69,7 @@ def run():
 
     with st.expander("🎊",False):
             st.write(" ")
-            st.write("$50 for Amazon (whenever I can figure that out)")
+            st.write("$50 for Amazon (whenever I can figure that out :) )")
             st.markdown("<img style='width: 100%;height: auto;' src='https://m.media-amazon.com/images/I/51MRE8TVg6L._QL92_SH45_.jpg' />",unsafe_allow_html=True)
             
     with st.expander("💝",False):
