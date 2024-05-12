@@ -14,6 +14,7 @@
 
 import streamlit as st
 from streamlit.logger import get_logger
+import requests
 
 LOGGER = get_logger(__name__)
 
@@ -27,10 +28,16 @@ def run():
              Mother's Day together. It didn't help I forgot stuff to make a card, so I thought
              I would try to make that up by doing this!""")
     
-    st.markdown('<a style="text-decoration: none;" href="https://docs.google.com/document/d/1od_IhgoLG5NO5-s3aOH4C6pUZok5M1-E5ReltRNxmLM/edit?usp=sharing">Docs</a>',unsafe_allow_html=True)
-    st.markdown("<img src='https://drive.google.com/file/d/1Eg7KFkqPlijYMoI94C6IYdT-huWc1jQ7/view?usp=drive_link'/>", unsafe_allow_html=True)
-    
 
+
+    # iamge ID
+    file_id = "1Eg7KFkqPlijYMoI94C6IYdT-huWc1jQ7"
+    # URL
+    url = f"https://drive.google.com/uc?export=view&id={file_id}"
+    response = requests.get(url)
+    st.image(response.content)
+
+  
 
 if __name__ == "__main__":
     run()
